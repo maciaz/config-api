@@ -1,0 +1,34 @@
+{
+  "name": "config-api",
+  "version": "1.0.0",
+  "description": "Fetch Config for requested client version",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^5.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "mongoose": "^5.0.10",
+    "should": "^13.2.1",
+    "sinon": "^4.4.6",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp-env": "^0.4.0",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciaz/config-api.git"
+  },
+  "author": "Maciej Magdziarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maciaz/config-api/issues"
+  },
+  "homepage": "https://github.com/maciaz/config-api#readme"
+}
